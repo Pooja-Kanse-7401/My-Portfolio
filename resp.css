@@ -1,0 +1,54 @@
+@media (max-width: 600px) {
+    #front-page h1{
+        font-size: 6vw;
+    }
+    .reveal .parent::-webkit-scrollbar{
+        display: none;
+    }
+    .row{
+        flex-direction: column;
+    }
+    #imagery{
+        flex-direction: column-reverse;
+        justify-content: space-around;
+        align-items: center;
+    }
+    #imagery #imglef h1{
+        font-size: 3vw;
+    }
+    #panel{
+        height: 5%;
+    }
+    .hmain{
+        width: 60%;
+    }
+    #info{
+        height: 160vh;
+    }
+    #detail{
+        flex-direction: column;
+        margin: 10vw 0vw;
+    }
+    #detail #know-more{
+        width: 90%;
+    }
+    #detail #skills{
+        width: 90%;
+    }
+    #contact-form{
+        width: 90%;
+        padding: 7vw 5vw;
+    }
+    #contact-form button{
+        width: 100%;
+    }
+    #footer-main{
+    flex-direction: column-reverse;
+
+        height: 70%;
+        padding: 2vw 0vw;
+    }
+    #footer-main #ftinfo{
+        width: 90%;
+    }
+}
